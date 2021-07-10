@@ -23,7 +23,7 @@ Download and run file in releases section (on the right)
 Programm takes two type of data structures in plain text format:
 
 - lists of natural values (1, 2, 3, ...):  
-(Exaples in https://raw.githubusercontent.com/vdevelg/liran/main/PG/integer_list.txt)
+(Exaples in <a href="https://raw.githubusercontent.com/vdevelg/liran/main/PG/integer_list.txt">PROVING_GROUND/integer_list.txt</a>)
 
 <p>
   <img src="https://raw.githubusercontent.com/vdevelg/liran/main/materials/int_list_struct.svg" alt="int_list_struct.svg">
@@ -31,7 +31,7 @@ Programm takes two type of data structures in plain text format:
 
 
 - list of position designations (A1, A2, B1, C1, C2, ...):  
-(Exaple in https://raw.githubusercontent.com/vdevelg/liran/main/PG/position_designations.txt)
+(Exaple in <a href="https://raw.githubusercontent.com/vdevelg/liran/main/PG/position_designations.txt">PROVING_GROUND/position_designations.txt</a>)
 
 <p>
   <img src="https://raw.githubusercontent.com/vdevelg/liran/main/materials/pos_desg_list_struct.svg" alt="pos_desg_list_struct.svg">
