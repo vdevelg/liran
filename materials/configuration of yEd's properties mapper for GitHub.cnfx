@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<styles>
+  <style name="GitHub" scope="node" selectionOnly="false">
+    <mapping>
+      <source name="Language" origin="customProperty" type="string"/>
+      <target name="labelTextColor" type="color">
+        <hints>
+          <hint type="int">0</hint>
+        </hints>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value>ENG</value>
+          <result>#ffffff00</result>
+        </discrete>
+        <discrete>
+          <value>RUS</value>
+          <result>#9da5b4</result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="Language" origin="customProperty" type="string"/>
+      <target name="labelTextColor" type="color">
+        <hints>
+          <hint type="int">1</hint>
+        </hints>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value>ENG</value>
+          <result>#9da5b4</result>
+        </discrete>
+        <discrete>
+          <value>RUS</value>
+          <result>#ffffff00</result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="Translatable" origin="customProperty" type="boolean"/>
+      <target name="labelTextColor" type="color">
+        <hints>
+          <hint type="int">0</hint>
+        </hints>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value>false</value>
+          <result>#9da5b4</result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="Type" origin="customProperty" type="string"/>
+      <target name="fillColor" type="color">
+        <hints/>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value/>
+          <result>#595e67</result>
+        </discrete>
+        <discrete>
+          <value>plain_text</value>
+          <result>#ffffff00</result>
+        </discrete>
+      </conversion>
+    </mapping>
+    <mapping>
+      <source name="Type" origin="customProperty" type="string"/>
+      <target name="borderStyleColor" type="color">
+        <hints/>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value/>
+          <result>#24292e</result>
+        </discrete>
+        <discrete>
+          <value>plain_text</value>
+          <result>#ffffff00</result>
+        </discrete>
+      </conversion>
+    </mapping>
+  </style>
+  <style name="GitHub" scope="edge" selectionOnly="false">
+    <mapping>
+      <source name="url" origin="dataProperty" type="string"/>
+      <target name="lineColor" type="color">
+        <hints/>
+      </target>
+      <conversion type="discrete">
+        <discrete>
+          <value/>
+          <result>#595e67</result>
+        </discrete>
+      </conversion>
+    </mapping>
+  </style>
+</styles>
