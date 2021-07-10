@@ -195,8 +195,8 @@ if __name__ == '__main__':
     OUT_DATA_VIEW = 0 # 0 - полный список, без свёрток в диапазоны,
                       # 1 - список свёрнутых в диапазоны значений
     # all test files are on the PROVING GROUND:
-    FILE_PATHS = [r'PG/position designations.txt',
-                  r'PG/integer list.txt',
+    FILE_PATHS = [r'PG/position_designations.txt',
+                  r'PG/integer_list.txt',
                   r'PG/out.csv']
     with open(FILE_PATHS[IN_DATA_TYPE]) as text_file:
         plain_text = text_file.read()
