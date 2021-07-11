@@ -1,9 +1,9 @@
-'''
+ '''
     Модуль синтаксически разбирает текст, содержащий
     список позиционных обозначений или список натуральных чисел
     в виде отдельных позиционных обозначений (чисел) или их диапазонов.
-    Выдаёт полный список позиционных обозначений (чисел), либо
-    эквивалентный список, состоящий из диапазонов.
+    Выдаёт полный список позиционных обозначений (чисел),
+    либо эквивалентный список, состоящий из диапазонов.
 '''
 
 import re
@@ -11,18 +11,12 @@ import re
 
 
 class Liran():
-    __MINUSES = ('-', '−', '–')
-    __SPACES = (' ','\t','\r','\n')
+    __MINUSES = ('-','–','—','−')
 
 
     @staticmethod
     def MINUSES():
         return Liran.__MINUSES
-
-
-    @staticmethod
-    def SPACES():
-        return Liran.__SPACES
 
 
     def __init__(self, plain_text):
@@ -31,7 +25,7 @@ class Liran():
 
     def __parse(self, plain_text):
         for sign in plain_text:
-            if sign not in Liran.__SPACES:
+            if not sign.isspace():
                 if   sign.isdigit():
                     return self.__parse_int_list(plain_text)
                 elif sign.isalpha():
