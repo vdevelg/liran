@@ -2,9 +2,7 @@
 
 Utility for converting value ranges to a list of values and vice versa.
 
-<p>
-  <img src="https://raw.githubusercontent.com/vdevelg/liran/main/materials/work_scheme.svg" alt="work_scheme.svg">
-</p>
+![work_scheme.svg](https://raw.githubusercontent.com/vdevelg/liran/main/materials/work_scheme.svg 'Data conversion scheme')
 
 
 
@@ -12,27 +10,21 @@ Utility for converting value ranges to a list of values and vice versa.
 
 Download and run file in releases section (on the right)
 
-<p>
-  <img src="https://raw.githubusercontent.com/vdevelg/liran/main/materials/where_releases_section.png" alt="where_releases_section.png">
-</p>
+![where_releases_section.png](https://raw.githubusercontent.com/vdevelg/liran/main/materials/where_releases_section.png 'Scroll up the page, the link will be on the right.')
 
 
 
 # Data structure
 
-Programm takes two type of data structures in plain text format:
+Program accepts and recognizes two type of data structures in plain text format:
 
 - lists of natural values (1, 2, 3, ...):  
-(Exaples in <a href="https://raw.githubusercontent.com/vdevelg/liran/main/PG/integer_list.txt">PROVING_GROUND/integer_list.txt</a>)
+(Exaples in [PROVING_GROUND/integer_list.txt](https://raw.githubusercontent.com/vdevelg/liran/main/PG/integer_list.txt))
 
-<p>
-  <img src="https://raw.githubusercontent.com/vdevelg/liran/main/materials/int_list_struct.svg" alt="int_list_struct.svg">
-</p>
+![int_list_struct.svg](https://raw.githubusercontent.com/vdevelg/liran/main/materials/int_list_struct.svg 'Structure of the list of natural numbers')
 
 
 - list of position designations (A1, A2, B1, C1, C2, ...):  
-(Exaple in <a href="https://raw.githubusercontent.com/vdevelg/liran/main/PG/position_designations.txt">PROVING_GROUND/position_designations.txt</a>)
+(Exaple in [PROVING_GROUND/position_designations.txt](https://raw.githubusercontent.com/vdevelg/liran/main/PG/position_designations.txt))
 
-<p>
-  <img src="https://raw.githubusercontent.com/vdevelg/liran/main/materials/pos_desg_list_struct.svg" alt="pos_desg_list_struct.svg">
-</p>
+![pos_desg_list_struct.svg](https://raw.githubusercontent.com/vdevelg/liran/main/materials/pos_desg_list_struct.svg 'Structure of the position designations list')
